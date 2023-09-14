@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="images\f1.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- Navbar Section -->
+    <header class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><strong>F1 2023</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="results.html"><strong>Results</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="signup.html"><strong>Sign Up</strong></a>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </header>
+
+        <!-- Form Section -->
+      <h2 style="margin-top: 2em;">Sign Up For Updates!</h2>
+      <form class="container-sm">
+        <div class="mb-3" style="width: 500px;">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3" style="width: 500px;">
+          <label for="exampleInputPassword1" class="form-label">Set New Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3" style="width: 500px;">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Send updates to my email</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <details>
+          <summary style="margin-top: 2em;"><h6>Review terms and conditions</h6></summary>
+          <li>We will never share details</li>
+          <li>Under a public license</li>
+        </details>
+      </form>
+      <!-- Footer Section -->
+      <footer class="text-center text-lg-start bg-light text-muted fixed-bottom">
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          Visit the official F1 Website: 
+          <a class="text-reset fw-bold" href="https://www.formula1.com/">Formula 1</a>
+          <h6>Questions?</h6>
+          <h6><a href="mailto:vasisht.t@northeastern.edu">Send us an email</a> or <a href="tel:+100000000">Call Us</a></h6>
+        </div>
+      </footer>
+    </body>
+</html>
